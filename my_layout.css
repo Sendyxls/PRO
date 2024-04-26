@@ -1,0 +1,50 @@
+/*template of page and footer to bottom of page*/
+html, body {
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.main {
+    flex: 1 0 auto;
+}
+footer {
+    flex: 0 0 auto;
+}
+/*-------------------*/
+*,
+*:hover,
+*:active {
+    box-sizing: border-box;
+}
+a {
+    display: inline-flex;
+    text-decoration: none;
+}
+button {
+    border: none;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
